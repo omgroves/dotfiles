@@ -1,19 +1,14 @@
 " .vimrc - Owen Groves
 
 set nocompatible
-" Pathogen
-filetype plugin indent on
-execute pathogen#infect()
-execute pathogen#helptags()
 
 " Misc configs
 syntax on
 set nu
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set nowrap
-set ai
-set si
 set ruler
 set showcmd
 set noerrorbells
