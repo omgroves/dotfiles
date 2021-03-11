@@ -1,0 +1,24 @@
+# omgroves starship config
+
+format = "$username$directory$git_branch$git_status$time\n  $character"
+
+add_newline = false
+
+[time]
+disabled = false
+format = "at [$time](bold white)"
+
+[hostname]
+disabled = true
+
+[character]
+success_symbol = "[➜](bold cyan)"
+error_symbol = "[➜](bold red)"
+
+[username]
+show_always = true
+style_user = "bold green"
+style_root = "bold green"
+
+[directory]
+truncation_length = 5

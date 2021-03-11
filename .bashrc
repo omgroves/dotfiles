@@ -23,3 +23,4 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+command -v starship >/dev/null && eval "$(starship init bash)"
